@@ -1,9 +1,16 @@
 <template>
-	<p>Page</p>
+	<div class="main-page-view">
+		<p>Page</p>
+	</div>
 </template>
 
 <script>
 	export default {};
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+	.main-page-view {
+		background: #ff0930;
+		height: 900px;
+	}
+</style>

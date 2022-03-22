@@ -10,9 +10,7 @@
 	import { onMounted } from 'vue';
 	export default {
 		setup() {
-			onMounted(() => {
-				alert('yay');
-			});
+			onMounted(() => {});
 		},
 	};
 </script>
