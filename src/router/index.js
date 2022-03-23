@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HelloWorld from '@/views/HelloWorld.vue';
+import Home from '@/views/Home.vue';
 import Page from '@/views/Page.vue';
 import Nav from '@/views/Nav.vue';
 const history = createWebHistory();
@@ -7,7 +7,7 @@ const routes = [
 	{
 		path: '/',
 		name: 'home',
-		component: HelloWorld,
+		component: Home,
 		meta: {
 			title: 'Home page',
 		},

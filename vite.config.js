@@ -20,6 +20,15 @@ export default ({ mode }) => {
 				'@': path.resolve(__dirname, 'src'),
 			},
 		},
+		css: {
+			preprocessorOptions: {
+				scss: {
+					// example : additionalData: `@import "./src/design/styles/variables";`
+					// dont need include file extend .scss
+					additionalData: `@import "./src/assets/style/main.scss";`,
+				},
+			},
+		},
 		/* remove the need to specify .vue files https://vitejs.dev/config/#resolve-extensions
     resolve: {
       extensions: [
