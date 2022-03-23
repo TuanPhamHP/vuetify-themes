@@ -12,6 +12,9 @@ export default createVuetify({
 			light: {
 				colors: {
 					primary: '#000',
+					btnActivePrim: '#1867c0',
+					btnGrey: '#ECECEC',
+					btnGreyColor: '#fff',
 					secondary: '#b0bec5',
 					anchor: '#8c9eff',
 					navigatorText: '#2b2b2b',
@@ -25,6 +28,9 @@ export default createVuetify({
 				colors: {
 					primary: '#fff',
 					secondary: '#b0bec5',
+					btnActivePrim: '#1867c0',
+					btnGrey: '#ECECEC',
+					btnGreyColor: '#fff',
 					anchor: '#8c9eff',
 					navigatorText: '#fff',
 					navigatorText__hover: '#2b2b2b',

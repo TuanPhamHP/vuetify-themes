@@ -2,7 +2,7 @@
 	<v-app :theme="currentTheme" class="app-container">
 		<v-main id="mainContainer">
 			<!-- Navigator -->
-			<Navigator />
+			<Navigator :changeTheme="changeTheme" :currentTheme="currentTheme" />
 			<!-- Route view -->
 			<router-view v-slot="{ Component, route }" class="page-route-view">
 				<transition name="fade" mode="out-in">
@@ -24,6 +24,7 @@
 			// 'currentTheme' should be match with listed key in 'themes' obj which decleare in ur plugins/vuetify.js file.
 			const currentTheme = ref(cachedTheme);
 			const changeTheme = themeName => {
+				localStorage.setItem('app-theme', themeName);
 				currentTheme.value = themeName;
 			};
 			return {
