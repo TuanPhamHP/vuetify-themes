@@ -1,0 +1,16 @@
+/* 
+---------App global style
+
+#1: THEMES VARIABLES
+#2: LAYOUT
+*/
+// #1: THEMES VARIABLES
+// -> plugins/vuetify.js
+// #2: LAYOUT
+.page-route-view {
+	height: 100vh;
+}
+.app-main-drawer,
+.list-navigator {
+	background-color: rgb(var(--v-theme-navigationDrawerBackground)) !important;
+}

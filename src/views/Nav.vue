@@ -11,6 +11,5 @@
 <style lang="scss" scoped>
 	.main-page-view {
 		background: #f3ff09;
-		height: 900px;
 	}
 </style>
